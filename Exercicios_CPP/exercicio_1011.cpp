@@ -27,7 +27,7 @@ int main() {
 
     double volume = (4.0 / 3) * pi * raio * raio * raio;
 
-    printf(" VOLUME = %.3lf\n", volume);
+    printf("VOLUME = %.3lf\n", volume);
 
     return 0;
 }
