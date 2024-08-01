@@ -18,14 +18,17 @@ Calcule e imprima o valor da distância segundo a fórmula fornecida, consideran
 
 using namespace std;
 
-int main(){
+int main() {
     double x1, y1, x2, y2;
     
     cin >> x1 >> y1;
     cin >> x2 >> y2;
 
-    // Calculando a distancia
-    double distancia = sqrt(pow(x2 = x1, 2) + pow(y2 - y1, 2));
+    // Calculando a distancia corretamente
+    double distancia = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
+    // Imprimindo a distancia com 4 casas decimais
     printf("%.4lf\n", distancia);
+    
+    return 0;
 }
